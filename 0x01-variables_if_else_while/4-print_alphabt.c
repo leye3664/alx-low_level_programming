@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 /**
- *  main - main block
- *  Return: 0
+ * main - main block 
+ * Return: 0
  */
 
 int main(void)
 {
-	char j = 'a';
-	char b = 'A';
+	char j ='a';
 
 	while (j <= 'z')
 	{
@@ -22,4 +21,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
