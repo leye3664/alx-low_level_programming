@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
  * main -main block
@@ -23,7 +23,11 @@ int main(void)
 	else 
 	{
 		printf("%i is negative\n", n);
-	return (0);
+
 	}
+	return (0);
+
 }
+
+
 
