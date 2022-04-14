@@ -21,5 +21,3 @@ int main(void)
 	printf("%lu\n", k);
 	return (0);
 }
-
-	   
