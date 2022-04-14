@@ -27,10 +27,10 @@ int main(void)
 			}
 			else
 			{
-				printf("%i ", i)
+				printf("%i ", i);
 			}
 			i++;
 		}
-		printf("\n");
-		return (0);
+	printf("\n");
+	return (0);
 }
