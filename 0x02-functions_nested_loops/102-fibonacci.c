@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	long int a = 1, b = 2, n = 2 , d;
+	long int a = 1, b = 2, n = 2, d;
 
 	printf("%lu, %lu", a, b);
 
