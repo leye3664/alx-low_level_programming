@@ -3,7 +3,7 @@
  * puts2 - prints every other character of  a string
  * @str: char type pointer
  */
-void_puts(char *str)
+void _puts(char *str)
 {
 	int i, j;
 
