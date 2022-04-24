@@ -9,6 +9,7 @@ void reverse_array(int *a, int n)
 {
 	int tep, beg = 0;
 	int end = n - 1;
+	
 	while (beg < end)
 	{
 		tep = *(a + beg);
