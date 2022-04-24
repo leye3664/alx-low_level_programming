@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strcmp - compares two strings
- * @s1: char typr pointer 
+ * @s1: char type pointer 
  * @s2: char type pointer
  * Return: differnce in the values
  */
