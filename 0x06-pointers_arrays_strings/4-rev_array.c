@@ -6,16 +6,14 @@
  */
 void reverse_array(int *a, int n);
 {
-	int k, j, i = 0;
-
-	n--;
-	j = n / s;
-	while (n >= j)
+	int tep, beg = 0;
+	int end = n - 1;
+	
+	while (beg < end)
 	{
-		k = a[i];
-		a[i] = a[n];
-		a[n] = k;
-		n--;
-		i++;
+		tep = *(a + beg);
+		*(a + beg) = *(a + end);
+		*(a + end) = tep;
+		beg++, end--;
 	}
 }
