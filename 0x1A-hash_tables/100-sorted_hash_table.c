@@ -246,3 +246,4 @@ void shash_table_delete(shash_table_t *ht)
 	ht->shead = ht->stail = NULL;
 	ht->size = 0;
 	free(ht);
+}
